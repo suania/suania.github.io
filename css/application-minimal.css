@@ -11,8 +11,9 @@
 
 /* navbar */
 .app-navbar {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: .15em;
+  font-weight: 400;
 }
 .app-navbar .l {
   font-size: 13px;
@@ -65,9 +66,9 @@
 
 /* footer block */
 .s {
-  background-color: rgb(41, 12, 57);
+  background-color: rgb(153, 3, 135);
   color: #444;
-  color: rgba(116, 119, 123, .5);
+  color: rgba(235, 239, 244, 0.5);
 }
 
 
@@ -105,4 +106,17 @@
   .x {
     font-size: 42px !important;
   }
+}
+
+#section3 {
+    background-color: #acacac;
+    color: #e2e2e2;
+}
+
+.bg{
+    background-color: #1871a8;
+
+}
+.bg1{
+    background-color: #b8b8b8;
 }

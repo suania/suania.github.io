@@ -513,7 +513,8 @@ mark,
   color: #aaaaaa;
 }
 .eg {
-  color: #685d9f;
+  color: #980386;
+/*  color: #685d9f;*/
 }
 a.eg:hover,
 a.eg:focus {
@@ -3697,7 +3698,8 @@ select[multiple].ne > .nx > .cs {
   color: #777777;
 }
 .pr .navbar-nav > li > a {
-  color: #777777;
+  color: #990387;
+/*  color: #777777;*/
 }
 .pr .navbar-nav > li > a:hover,
 .pr .navbar-nav > li > a:focus {
@@ -3707,7 +3709,8 @@ select[multiple].ne > .nx > .cs {
 .pr .navbar-nav > .active > a,
 .pr .navbar-nav > .active > a:hover,
 .pr .navbar-nav > .active > a:focus {
-  color: #333333;
+  color: #1724a0;
+  /*color: #333333;*/
   background-color: transparent;
 }
 .pr .navbar-nav > .disabled > a,
@@ -8676,10 +8679,11 @@ img.zoom-img {
   vertical-align: middle;
 }
 .apq {
-  font-size: 85%;
+  font-size: 90%;
   letter-spacing: .15em;
-  color: #888888;
+  color: #5a5a5a;
   text-transform: uppercase;
+  font-weight: 400;
 }
 .apr {
   display: inline-block;
@@ -8895,6 +8899,6 @@ h6 .du,
 h6,
 .dt {
   margin-bottom: 5px;
-  color: #bbbbbb;
+  color: #fdfdfd;
   text-transform: uppercase;
 }

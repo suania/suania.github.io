@@ -105,3 +105,17 @@ footer .nav>li>a:hover {
     background-color:transparent;
 	color:#fff;
 }
+
+
+.defile {
+    display:block;
+    -webkit-animation:linear marqueelike 20s infinite ;
+    -moz-animation:linear marqueelike 20s infinite ;
+    -o-animation:linear marqueelike 20s infinite ;
+    -ms-animation:linear marqueelike 20s infinite ;
+    animation:linear marqueelike 20s infinite ;
+    margin-left:-100%;
+    padding:0 5px;
+    text-align:left;
+    height:25px;
+}
