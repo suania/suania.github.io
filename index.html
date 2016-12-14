@@ -4,20 +4,1306 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+    <!-- Menu -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <h1 class="logo"><a href="index.html#home">SuaNiA</a></h1>
+            <i class="fa fa-arrow-right menu-close"></i>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">A propos</a>
+            <a href="#contact">Contacts</a>
+            <a href="http://facebook.com/suania225" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/SuaNiA225" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="http://www.instagram.com/suaniasuania" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="mailto:suaniasuania@gmail.com" ><i class="fa fa-envelope"></i></a>
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- Menu button -->
+        <div id="menuToggle"><i class="fa fa-bars"></i></div>
+    </nav>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <!-- MAIN IMAGE SECTION -->
+    <div id="headerwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1>SuaNiA</h1>
+                    <h2>La Culture du Beau !!</h2>
+                    <div class="spacer"></div>
+                    <i class="fa fa-angle-down"></i>
+                </div>
+            </div><!-- row -->
+        </div><!-- /container -->
+    </div><!-- /headerwrap -->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!-- WELCOME SECTION -->
+    <div class="container">
+        <div class="row mt">
+            <div class="col-lg-10">
+                <h1>L'art au service des besoins de chaque jour!</h1>
+                <p> “La d&eacute;coration de  votre int&eacute;rieur est le reflet de vos attraits et particularit&eacute;s.
+                La culture occupe une grande place dans notre propre personnalit&eacute;.
+              <br/>
+                Nous essayons de vous offrir le meilleur possible via la broderie. <br/>
+                Cultivons le beau!!!”
+              </p>
+            </div>
+           <div class="col-lg-2">
+                <p class="pull-right"><br>
+                    <img src="img/logo_suania1&.png">
+                    <!--<button type="button" class="btn btn-green">Start Your Project Now</button>--></p>
+            </div>
+        </div><!-- /row -->
+    </div><!-- /.container -->
+
+    <!-- PORTFOLIO SECTION -->
+    <div id="portfolio">
+        <div class="container">
+        <div class="row mt">
+            <ul class="grid effect-2" id="grid">
+                <li><a href="#portofolio1" data-toggle="modal" data-target="#portofolio1"><img src="/img/portfolio/1.jpg"></a></li>
+
+                <li><a href="#portofolio3" data-toggle="modal" data-target="#portofolio3"><img src="/img/portfolio/3.jpg"></a></li>
+
+                <li><a href="#portofolio4" data-toggle="modal" data-target="#portofolio4"><img src="/img/portfolio/4.jpg"></a></li>
+
+                <li><a href="#portofolio12" data-toggle="modal" data-target="#portofolio12"><img src="/img/portfolio/12.JPG"></a></li>
+
+                <li><a href="#portofolio13" data-toggle="modal" data-target="#portofolio13"><img src="/img/portfolio/13.jpg"></a></li>
+
+                <li><a href="#portofolio10" data-toggle="modal" data-target="#portofolio10"><img src="/img/portfolio/10.jpg"></a></li>
+
+                <li><a href="#portofolio9" data-toggle="modal" data-target="#portofolio9"><img src="/img/portfolio/9.jpg"></a></li>
+
+                <li><a href="#portofolio2" data-toggle="modal" data-target="#portofolio2"><img src="/img/portfolio/2.jpg"></a></li>
+
+                <li><a href="#portofolio6" data-toggle="modal" data-target="#portofolio6"><img src="/img/portfolio/6.JPG"></a></li>
+
+                <li><a href="#portofolio5" data-toggle="modal" data-target="#portofolio5"><img src="/img/portfolio/5.JPG"></a></li>
+                <li><a href="#portofolio14" data-toggle="modal" data-target="#portofolio14"><img src="/img/portfolio/14.jpg"></a></li>
+                <li><a href="#portofolio7"  data-toggle="modal" data-target="#portofolio7"><img src="/img/portfolio/7.jpg"></a></li>
+                <li><a href="#portofolio11" data-toggle="modal" data-target="#portofolio11"><img src="/img/portfolio/11.jpg"></a></li>
+
+
+                <li><a href="#portofolio9" data-toggle="modal" data-target="#portofolio9"><img src="/img/portfolio/9.jpg"></a></li>
+
+                <li><a href="#portofolio8" data-toggle="modal" data-target="#portofolio8"><img src="/img/portfolio/8.jpg"></a></li>
+                <li><a href="#portofolio2" data-toggle="modal" data-target="#portofolio2"><img src="/img/portfolio/2.jpg"></a></li>
+                <li><a href="#portofolio11" data-toggle="modal" data-target="#portofolio15"><img src="/img/portfolio/15.jpg"></a></li>
+            </ul>
+
+            <!--debut des modals-->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="portofolio1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Le papillon</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/1.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Papillon  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portofolio2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel2">La Violette</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/2.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> La Violette  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> la beaut&eacute; par simplicit&eacute; florale</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> fleur, violet</dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/> (courantes)</dt>
+                                        <dd> S&eacute;jour <br/>
+                                            Salle à manger <br/>
+                                        Chambre</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portofolio3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel3">LOVE</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/3.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> LOVE  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> En vente (nous <a href="mailto:suaniasuania@gmail.com">contacter</a> pour les d&eacute;tails)</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'amour entre deux &ecirc;tres</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd>Broderie (fait main), oiseaux </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/> (courantes)</dt>
+                                        <dd> S&eacute;jour <br/>
+                                            Chambre </dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portofolio4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel4">Trinity</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/4.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Trinity  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> DIEU sous ces formes illustr&eacute; grâce au symbole Brong </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd>Pagne au motif kita, broderie, motif Brong <mark>( <strong> <em>Gye Nyame </em>  </strong>)</mark> </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/> (courantes)</dt>
+                                        <dd> S&eacute;jour <br/>
+                                           Bureau <br/>
+                                           Chambre</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portofolio5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel5">Tableau Mariage </h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/5.JPG" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Mariage personnalis&eacute;  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> Ce tableau est r&eacute;alis&eacute; uniquement pour marquer ce jour sp&eacute;cial qu'est le mariage.
+                                            <br/>
+                                            Sp&eacute;cialement conçus pour des mari&eacute;s
+                                            <br/>
+                                            les pr&eacute;noms, la date et les couleurs sont personnalisables.
+                                            <br/>
+                                            Plusieurs mod&egrave;les sont disponibles
+                                        </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> Tableau sp&eacute;cialis&eacute;, couleurs au choix, mariage</dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/> (courantes)</dt>
+                                        <dd> S&eacute;jour <br/>
+                                            Entr&eacute;e du domicile </dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portofolio6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel6">Panneau AKWABA</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/6.JPG" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Panneau AKWABA  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger">  En vente (nous <a href="mailto:suaniasuania@gmail.com">contacter</a> pour les d&eacute;tails) </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> Mat&eacute;rialisation de l'hospitalit&eacute; Ivoirienne !!!</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> Accueil, culturel , pagne </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/>(courantes)</dt>
+                                        <dd> S&eacute;jour <br/>
+                                            Entr&eacute;e du domicile </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portofolio7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel7">Angelique</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive"src="/img/portfolio/7.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Angelique  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd>Joie, bonheur et paix  </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> Broderie (fait main)</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/>(courantes)</dt>
+                                        <dd> Salle de s&eacute;jour <br/>
+                                            Bureau, chambres d'amis </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+     <!-- Modal -->
+            <div class="modal fade" id="portofolio8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel8">Mariage Harmonieux</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/8.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Mariage Harmonieux  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger">  En vente (nous <a href="mailto:suaniasuania@gmail.com">contacter</a> pour les d&eacute;tails) </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> Le mariage a besoin de l'union, la complicit&eacute; et l'entraide des conjoints plus un soupçon d'amour entretenu quotidiennement pour &ecirc;tre harmonieux</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> Mariage, symbolisme akan <mark> (<em> <strong> Akoma  & Kete Pa</strong> </em>)</mark></dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/> (courantes)</dt>
+                                        <dd> S&eacute;jour <br/>
+                                            terrasse  </dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+     <!-- Modal -->
+            <div class="modal fade" id="portofolio9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel9">Tableau Naissance</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/9.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Tableau Naissance  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd>Naisnance, identit&eacute; du nouveau n&eacute;e</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/> (courantes)</dt>
+                                        <dd> S&eacute;jour <br/>
+                                            Chambre  du b&eacute;b&eacute; </dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+     <!-- Modal -->
+            <div class="modal fade" id="portofolio10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel10">Serviettes sp&eacute;ciales</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/10.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Serviettes Personnalisables  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Packs</dt>
+                                        <dd> Total (Grande + moyenne + petite )</dd>
+                                        <dd> Total mini (Grande + moyenne + gant ) </dd>
+                                        <dd> Duo (Grande + moyenne) </dd>
+                                        <dd> Solo (Grande / moyenne ) </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> Personnalisable avec  des motifs</dd>
+                                        <dd> Personnalisable avec les pr&eacute;noms </dd>
+                                        <dd> Personnalisable avec les pr&eacute;noms + motifs </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+     <!-- Modal -->
+            <div class="modal fade" id="portofolio11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel11">Draps BB</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/11.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Draps BB  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd>150 x 100 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> motifs enfantins </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+     <!-- Modal -->
+            <div class="modal fade" id="portofolio12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel12">Mouchoir en joie</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/12.JPG" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Mouchoir en joie  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 36 X 36 cm </dd>
+                                    </dl>
+
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> mouchoir blanc, motif, caract&egrave;re</dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Utilisations <br/>(courantes)</dt>
+                                        <dd> Merci <br/>
+                                            Initiale
+                                            <br/>
+                                            Attention particuli&egrave;re
+                                            <br/>
+                                            Cadeau de soci&eacute;t&eacute;
+                                            <br/>
+                                            etc
+
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+     <!-- Modal -->
+            <div class="modal fade" id="portofolio13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel13">Draps BB </h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/13.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Draps BB  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 150 X 100 cm </dd>
+                                    </dl>
+
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+     <!-- Modal -->
+            <div class="modal fade" id="portofolio14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel14">Serviettes sp&eacute;ciales</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/14.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Serviettes sp&eacute;ciales  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+
+
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> Personnalisable avec  des motifs</dd>
+                                        <dd> Personnalisable avec les pr&eacute;noms </dd>
+                                        <dd> Personnalisable avec les pr&eacute;noms + motifs </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Packs</dt>
+                                        <dd> Total (Grande + moyenne + petite )</dd>
+                                        <dd> Total mini (Grande + moyenne + gant ) </dd>
+                                        <dd> Duo (Grande + moyenne) </dd>
+                                        <dd> Solo (Grande / moyenne ) </dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->  <!-- Modal -->
+            <div class="modal fade" id="portofolio15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel15">Le papillon</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/15.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Papillon  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->  <!-- Modal -->
+            <div class="modal fade" id="portofolio16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel16">Le papillon</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/16.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Papillon  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->  <!-- Modal -->
+            <div class="modal fade" id="portofolio17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel17">Le papillon</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                        <img class="media-object img-responsive" src="/img/portfolio/17.jpg" alt="SuaNiA">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"> </h4>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Nom </dt>
+                                        <dd class=""> Papillon  </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Disponibilit&eacute;</dt>
+                                        <dd class="text-danger"> Sur commande </dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Dimensions</dt>
+                                        <dd> 45 X 50 cm </dd>
+                                    </dl>
+
+                                    <dl class="dl-horizontal">
+                                        <dt>Symbolisme</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+                                    <dl class="dl-horizontal">
+                                        <dt>Caract&eacute;ristiques</dt>
+                                        <dd> L'exotisme au goût traditionnel</dd>
+                                    </dl>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            <a href="mailto:suaniasuania@gmail.com" class="btn btn-primary">Se renseigner</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin  Modal -->
+
+            <!--fin des modals-->
+        </div><!-- row -->
+    </div><!-- container -->
+</div><!-- portfolio -->
+
+
+<!-- SERVICES SECTION -->
+<div id="services">
+    <div class="container">
+        <div class="row mt">
+            <div class="col-lg-1 centered">
+                <i class="fa fa-certificate"></i>
+            </div>
+            <div class="col-lg-3">
+                <h3>Artistique</h3>
+                <p> Nous &oelig;uvres inspir&eacute;es de notre culture sont id&eacute;ales pour  vos demeures,
+                    bureaux et autres endroits tout &agrave; vous <br/>
+                    Ces &oelig;uvres sont disponibles via des <strong>
+                        ventes priv&eacute;es </strong> que nous organisons p&eacute;riodiquement .
+                </p>
+            </div>
+
+            <div class="col-lg-1 centered">
+                <i class="fa  fa-asterisk"></i>
+            </div>
+            <div class="col-lg-3">
+                <h3>Proximit&eacute;</h3>
+                <p>Nous mettons notre savoir faire à la disposition de toute personne d&eacute;sirant personnaliser des oeuvres.</p>
+            </div>
+
+
+            <div class="col-lg-1 centered">
+                <i class="fa fa-globe"></i>
+            </div>
+            <div class="col-lg-3">
+                <h3>Services</h3>
+                <p> Nous offrons :
+                    - Accessoires brod&eacute;s <br/>
+                    - Porte-cl&eacute;s <br/>
+                    - Tableaux <br/>
+                    - Mouchoirs personnalis&eacute;s <br/>
+                    - Pack de serviettes brod&eacute;es <br/>
+                    - Nappes brod&eacute;es <br/>
+                    - etc... <br/>
+
+               </p>
+            </div>
+
+        </div><!-- row -->
+    </div><!-- container -->
+</div><!-- services section -->
+
+
+<!-- BLOG POSTS -->
+<div class="container">
+    <div class="row mt">
+        <div class="col-lg-12">
+            <h1>Quelques &oelig;uvres</h1>
+        </div><!-- col-lg-12 -->
+        <div class="col-lg-8">
+            <p>Ces &oelig;uvres sont issues de la collection de 2015 </p>
+        </div><!-- col-lg-8-->
+        <div class="col-lg-4 goright">
+            <p><a href="portfolio.html"><i class="fa fa-angle-right"></i>Toutes les &oelig;uvres </a></p>
+        </div>
+    </div><!-- row -->
+
+    <div class="row mt">
+        <div class="col-lg-4">
+            <img class="img-responsive" src="/img/love.jpg" alt="suania">
+            <h3><a href="#">LOVE</a></h3>
+            <p>Ce tableau exprime l'amour  &eacute;prouv&eacute; pour son ou sa compagne. Il convient parfaitement pour un s&eacute;jour qui dedie
+                quelques blancs de murs à l'expression de l'amour ou tout simplement à offrir à l'occasion d'un mariage</p>
+            <p><a href="portfolio.html"><i class="fa fa-link"></i> Plus ++</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="img-responsive" src="/img/trinity.jpg" alt="suania">
+            <h3><a href="#">TRINITY</a></h3>
+            <p>DIEU est tr&egrave;s important dans la vie d'un &ecirc;tre humain, et ce tableau exprime sa grandeur, sa majest&eacute; en utilisant
+                de symboles issues de la culture Brong <strong> <em>  Gye Nyame et Nyame Ohene  </em>  </strong>.</p>
+            <p><a href="portfolio.html"><i class="fa fa-link"></i> Plus ++</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="img-responsive" src="/img/akwaba.jpg" alt="suania">
+            <h3><a href="portfolio.html">Panneau AKWABA</a></h3>
+            <p>L'hospitalit&eacute; est  africaine j'ai coutume de dire, les ivoiriens donc.
+                Ici l'akwaba est accord&eacute; à tout &eacute;tranger d'une façon chaleureuse et normale. <br/>
+             <strong>  Donc dites vous aussi Akwaba à quiquonque vous rend visite sans m&ecirc;me prononcer un mot !!! </strong> </p>
+            <p><a href="portfolio.html"><i class="fa fa-link"></i> Plus ++</a></p>
+        </div>
+    </div><!-- row -->
+</div><!-- container -->
+
+
+
+
+
+<!-- CALL TO ACTION -->
+<div id="call">
+    <div class="container">
+        <div class="row">
+            <h3>PRODUITS SPECIALISES</h3>
+            <div class="col-lg-8 col-lg-offset-2">
+                <p>Pour tout &eacute;v&egrave;nement, c&eacute;r&eacute;monie, nous mettons notre expertise à votre service. <br/> N'h&eacute;sitez pas à nous contacter pour plus de renseignements</p>
+                <p><a href="mailto:suaniasuania@gmail.com" class="btn btn-green btn-lg" >Renseignez vous</a></p>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+</div><!-- Call to action -->
+
+
+
+    <!-- CLIENTS LOGOS -->
+    <div id="lg">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-lg-2 col-lg-offset-1">
+                    <img src="/img/clients/c01.gif" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="/img/clients/c02.gif" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="/img/clients/c03.gif" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="/img/clients/c04.gif" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="/img/clients/c05.gif" alt="">
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- dg -->
+
+
+    <div class="container">
+    <div class="row mt">
+        <div class="col-lg-12">
+            <h1>Restons Connect&eacute;s</h1>
+            <p>Rejoingez nous sur les diff&eacute;rents r&eacute;saux sociaux.</p>
+            <br>
+        </div><!-- col-lg-12 -->
+    </div><!-- row -->
+</div><!-- container -->
+
+
+    <!-- SOCIAL FOOTER --->
+    <section id="contact"></section>
+    <div id="sf">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 dg">
+                    <h4 class="ml">FACEBOOK</h4>
+                    <p class="centered"><a href="http://facebook.com/suania225" target="_blank"><i class="fa fa-facebook"></i></a></p>
+                    <p class="ml"> <i class="fa fa-arrow-right"></i> Devenons  ami!! &nbsp;&nbsp;
+                        <a href="http://facebook.com/suania225" target="_blank"> Facebook</a></p>
+                </div>
+                <div class="col-lg-4 lg">
+                    <h4 class="ml">TWITTER</h4>
+                    <p class="centered"><a href="http://twitter.com/SuaNiA225" target="_blank"><i class="fa fa-twitter"></i></a></p>
+                    <p class="ml"><i class="fa fa-arrow-right"></i> Suivez nous &nbsp;&nbsp; <a href="http://twitter.com/SuaNiA225" target="_blank"> <strong>Twitter </strong> </a> </p>
+                </div>
+                <div class="col-lg-4 dg">
+                    <h4 class="ml">INSTAGRAM</h4>
+                    <p class="centered"><a href="http://www.instagram.com/suaniasuania/"target="_blank"><i class="fa fa-instagram"></i></a></p>
+                    <p class="ml"><i class="fa fa-arrow-right"></i> SuaNiA en images  &nbsp;&nbsp;<a href="http://www.instagram.com/suaniasuania/"target="_blank">Instagram</a></p>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- Social Footer -->
+
+
+
+    <!-- CONTACT FOOTER --->
+    <div id="cf">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-8">
+                     <div id="mapwrap">
+                         <iframe height="400" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=-4.024429,5.345317&amp;spn=67.34552,156.972656&amp;z=6&amp;output=embed"></iframe>
+                     </div>
+                 </div>--><!--col-lg-8-->
+                <div class="col-lg-12">
+                    <h4>ADRESSE<br/></h4>
+                    <p>
+                        C&ocirc;te d'Ivoire,<br/>
+                        Cocody Angr&eacute; - Abidjan.
+                    </p>
+                    <p>
+                        <!--P: +55 4839-4390<br/>-->
+                        M: +225 59 53 65 55<br/>
+                        E: <a href="mailto:suaniasuania@gmail.com">suaniasuania@gmail.com</a>
+                    </p>
+                    <p> Merci pour la visite et à tr&egrave;s bient&ocirc;t </p>
+                </div><!--col-lg-4-->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- Contact Footer -->
+
+
+
 
 </div>
