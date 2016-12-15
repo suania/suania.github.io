@@ -1,6 +1,6 @@
-http://www.suania.xyz/
-http://www.suania.xyz/index.html
-http://www.suania.xyz/#suania
-http://www.suania.xyz/#creation
-http://www.suania.xyz/#contact
-http://www.suania.xyz/#produit
+http://www.suania.org/
+http://www.suania.org/index.html
+http://www.suania.org/#suania
+http://www.suania.org/#creation
+http://www.suania.org/#contact
+http://www.suania.org/#produit
